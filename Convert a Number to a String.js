@@ -22,7 +22,7 @@ function numberToString(num) {
 
   }
 
-  console.log(numberToString(899))
+  console.log(numberToString(899)) // "899"
 
 
 
@@ -35,4 +35,4 @@ function numberToString(num) {
 
   let numToString = num => num.toString();
 
-  console.log(numToString(899))
+  console.log(numToString(899)) // "899"
