@@ -7,7 +7,7 @@
 
 let reverse = str => str.split('').reverse().join('');
 
-console.log(reverse("racecar"))
+console.log(reverse("racecar"))  //'racecar'
 
 
 //long form
@@ -17,4 +17,4 @@ function longRev (str) {
     return rev;
 }
 
-console.log(longRev("Leon Noel"))
+console.log(longRev("Leon Noel")) // "leoN noeL"
