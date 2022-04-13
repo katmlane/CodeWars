@@ -1,2 +1,2 @@
 # CodeWars0322
-My code wars solutions for string kata
+My code wars solutions for JavaScript
