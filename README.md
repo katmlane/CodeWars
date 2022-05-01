@@ -1,6 +1,7 @@
+ 
 # CodeWars
 
-CodeWars' problem solving coding exercises challenges the way I think about programming languages in practical applications of the code. I am primarly testing my JavaScript knowledge at the moment. I plan to explore React.js in the near future. This repository contains my codewars solutions as a beginner Softwar Engineer. They are organized by programming language and kata kyu level.
+CodeWars' problem-solving coding exercises challenge the way I think about programming languages in practical applications of the code. I am primarily testing my JavaScript knowledge at the moment. I plan to explore React.js shortly. This repository contains my Codewars solutions as a beginner Software Engineer. They are organized by programming language and kata kyu level.
 
 **Link to CodeWars:** 
 
@@ -22,6 +23,6 @@ So far I have learned that there are four primary troubleshooting solutions I ca
 1. Start with clear pseudocode
 2. Console.log(everything)
 3. Check your spelling and syntax
-4. Be sure you are returning the data you want, or returning it period (see #2)
+4. Be sure you are returning the data you want or returning it period (see #2)
 
-As I collect experiences/lessons I will update this list. 
+As I collect experiences/lessons I will update this list.
