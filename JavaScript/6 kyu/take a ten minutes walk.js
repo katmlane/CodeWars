@@ -145,3 +145,22 @@ const isValidWalk = walk => {
 // after writing all of this I realized that I had been assigning "w" and "e" to the inappropriate counter
 console.log(isValidWalk(['e','w','n','s','e','w','w','e','n','s']));
 
+// after seeing solutions I saw this one, which used switch cases that I thought might be useful while I was writting psuedo code but couldn't figure out how to use it
+
+
+// function isValidWalk(walk) {
+//     var dx = 0
+//     var dy = 0
+//     var dt = walk.length
+    
+//     for (var i = 0; i < walk.length; i++) {
+//       switch (walk[i]) {
+//         case 'n': dy--; break
+//         case 's': dy++; break
+//         case 'w': dx--; break
+//         case 'e': dx++; break
+//       }
+//     }
+    
+//     return dt === 10 && dx === 0 && dy === 0
+//   }
