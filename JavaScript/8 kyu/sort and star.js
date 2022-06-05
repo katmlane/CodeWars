@@ -36,16 +36,17 @@
 
 
 
-const twoSort = s => {
-    const sorted = s.sort();
-    const splited = sorted[0].split("");
-    return splited.join("***")
-}
+// const twoSort = s => {
+//     const sorted = s.sort();
+//     const splited = sorted[0].split("");
+//     return splited.join("***")
+// }
 
 
+//refactored
 
 
-
+const twoSort= s => s.sort()[0].split('').join('***');
 
 
 
