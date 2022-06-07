@@ -71,4 +71,10 @@ const findLongest = str => {
 }
 
 
-console.log(findLongest("Wind your body and wiggle your belly"))
+
+
+//other code wars answers 
+
+
+//const findLongest = str =>
+// Math.max(...str.split(` `).map(val => val.length));
