@@ -52,6 +52,6 @@
 
 
 
-let solution = nums => nums.sort((a, b) => a - b);
+let solution = nums => [...nums].sort((a, b) => a - b);
 
 console.log([1, 2, 10, 50, 5])
