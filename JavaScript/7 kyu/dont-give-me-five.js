@@ -40,14 +40,31 @@
 
 const dontGiveMeFive = (start, end) => {
   let fiveArr = [];
-  for (start; start <= end; start++){
-    fiveArr.push(start);
+  for (let i = start; i <= end; i++){
+    fiveArr.push(i);
   }
   //to check the array 
   console.log(fiveArr)
   
   const noFives = fiveArr.filter(number => !String(number).includes("5"));
   
+  return noFives.length
+  
+}
+
+console.log(dontGiveMeFive(4, 17))
+
+//refactored 
+
+const dontGiveMeFive = (start, end) => {
+  let noFives = [];
+  for (let i = start; i <= end; i++){
+    if (!i.toString().includes("5")) {
+      noFives.push(i)
+    }
+  }
+  
+
   return noFives.length
   
 }
