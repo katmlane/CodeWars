@@ -12,25 +12,36 @@
 // In the end, click "Submit" to submit your code pass this kata.
 
 
+//simple turnary operator
+
 
 // function saleHotdogs(n){
 //   return ?
 // }
 
-const saleHotdogs = n => {
-    let cents;
-    if (n < 5) {
-      cents = n*100;
-    }
-    else if (n >= 5 && n < 10) {
-     cents = n*95;
-    }
-    else if (n >= 10) {
-      cents = n*90;
-    }
-    return cents;
-  };
+// const saleHotdogs = n => {
+//     let cents;
+//     if (n < 5) {
+//       cents = n*100;
+//     }
+//     else if (n >= 5 && n < 10) {
+//      cents = n*95;
+//     }
+//     else if (n >= 10) {
+//       cents = n*90;
+//     }
+//     return cents;
+//   };
   
   
-  console.log(15);
+//   console.log(15);
     
+
+
+  //refactored - needs work
+
+  const saleHotdogs = n =>  n>= 5 && n < 10 ? n * 95 : n < 5 ? n * 100 : n * 90;
+  
+
+  console.log(15);
+
