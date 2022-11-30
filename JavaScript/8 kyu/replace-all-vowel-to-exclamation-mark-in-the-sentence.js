@@ -14,7 +14,7 @@ const replace = s => {
     let resArr =[];
     for (let i = 0; i < sArr.length; i++) {
         let sArrEl = sArr[i];  
-      if (sArrEl.every(el=>el ===))) === true) {
+      if ((sArrEl.every(el=>el ===)) === true) {
         resArr.push("!");
       }
       else {
