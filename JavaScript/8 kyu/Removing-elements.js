@@ -30,7 +30,9 @@
 // going to use loop to push to new array
 
 const removeEveryOther = arr => {
+  //create an empty array
   let keepArr = [];
+  //loop that will push only the index of the element that is divisible by 2, or everyother
   for (let i = 0; i < arr.length; i++) {
     if (i % 2 !== 1) {
       keepArr.push(arr[i])
