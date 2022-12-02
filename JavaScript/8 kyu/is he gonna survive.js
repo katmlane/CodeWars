@@ -43,18 +43,20 @@
 //return true or false, true if bullets > (dragons* 2), else {false}
 
 
-// let hero = (bullets, dragons) => {
-//     let bulletsForDragons = dragons * 2;
-//     if (bullets>= bulletsForDragons) {
-//         console.log("they dead jim")
-//         return true;
-//     } else if (bullets < bulletsForDragons) {
-//         console.log("he's dead jim")
-//         return false
-//     }
+let hero = (bullets, dragons) => {
+    //number of bullets per dragon needed
+    let bulletsForDragons = dragons * 2;
+    //check to see if you've used enough bullets for the dragons and gives the user a string
+    if (bullets>= bulletsForDragons) {
+        console.log("they dead jim")
+        return true;
+    } else if (bullets < bulletsForDragons) {
+        console.log("he's dead jim")
+        return false
+    }
 
 
-// }
+}
 
 
 //refactor
