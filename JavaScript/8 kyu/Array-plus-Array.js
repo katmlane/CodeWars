@@ -43,3 +43,10 @@ const arrayPlusArray = (arr1, arr2) => arr1.reduce((a,b) => a + b, 0) + arr2.red
  
 
 console.log(arrayPlusArray([100, 200, 300], [400, 500, 600]))
+
+
+function arrayPlusArray (arr1, arr2) {
+    const reduced1 = Number(arr1.reduce((a,b) => a + b, 0));
+    const reduced2 = Number(arr2.reduce((a,b) => a + b, 0));
+    return reduced1 + reduced2
+}
