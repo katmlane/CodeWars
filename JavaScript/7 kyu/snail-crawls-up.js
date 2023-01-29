@@ -12,6 +12,7 @@
 // Calculate number of day when the snail will reach the top of the column.
 
 
+//forgot that I needed to add and = sign in the short hand in order for the math to work properly
 const snail = (column, day, night) => {
   let counter = 0;
   while (column > 0) {
@@ -23,10 +24,19 @@ const snail = (column, day, night) => {
 
 
 
+//column is height needed to climb 
+//day is the height climbed during the day
+//night is the height that is lost in reverse during the night
 const snail = (column, day, night) => {
+  //day counter
   let counter = 0;
+  //set variable for climb height = 0
+  //loop that checks the climb height for each day, if the climb is less than the column, counter is increased by 1
+ 
   for (let climb = 0; column > climb; counter++) {
     climb + day
+    //conditional that will check to see if the snail slides in reverse for the night. Must check the first to see if the climb height after adding the day height is greater then the height of the column
+    
     if (column > climb) {
       climb - night;
     }
@@ -34,7 +44,7 @@ const snail = (column, day, night) => {
   return counter
 }
 
-
+// different solution that uses a while loop instead. 
 function snail(column, day, night) {
   let current = 0;
   let counts = 0;
