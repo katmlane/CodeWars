@@ -12,6 +12,15 @@
 // Calculate number of day when the snail will reach the top of the column.
 
 
+
+//examples
+
+//console.log(snail(5,10,3)) //1
+//console.log(snail(100,20,5)) //7
+//console.log(snail(10,3,2)) //8
+//console.log(snail(10,3,1)) //5
+
+
 //forgot that I needed to add and = sign in the short hand in order for the math to work properly
 const snail = (column, day, night) => {
   let counter = 0;
