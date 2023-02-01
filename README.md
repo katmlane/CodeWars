@@ -24,5 +24,6 @@ So far I have learned that there are four primary troubleshooting solutions I ca
 2. Console.log(everything)
 3. Check your spelling and syntax
 4. Be sure you are returning the data you want or returning it period (see #2)
+5. Arrow functions are really only useful for anonymous functions
 
 As I collect experiences/lessons I will update this list.
