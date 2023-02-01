@@ -24,3 +24,17 @@
 const feast = (beast, dish) => beast.slice(0,1) === dish.slice(0,1) && beast.slice(-1) === dish.slice(-1) ? true : false;
 
 console.log(feast("great blue heron", "arlic naan"))
+
+
+// updated to eliminate arrow function 
+
+function feast (beast, dish) {
+//grab first letter
+//   console.log(beast.slice(0,1))
+//   //grab last letter
+//   console.log(beast.slice(-1))
+
+if (beast.slice(0,1) === dish.slice(0,1) && beast.slice(-1) === dish.slice(-1)) {
+       return true;
+      } 
+}
