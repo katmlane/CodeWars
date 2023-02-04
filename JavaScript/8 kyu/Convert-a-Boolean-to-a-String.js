@@ -71,4 +71,9 @@
 let booleanToString = b => b.toString()
 
 
+
+function booleanToString () {
+ return b.toString(); 
+}
+
 console.log(booleanToString(true))
