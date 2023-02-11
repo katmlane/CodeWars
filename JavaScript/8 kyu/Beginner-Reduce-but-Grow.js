@@ -31,3 +31,11 @@ const grow = x => x.reduce((a,b) => a*b, 1);
 
 console.log(grow([2, 2, 2, 2, 2, 2]))
 
+
+
+//normal function
+
+function grow (x) {
+  x.reduce((a,b) => a*b, 1)
+  return x
+}
