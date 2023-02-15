@@ -61,6 +61,11 @@
 
 // refactor 
 
-let find_average = array => !array.length ? 0 : array.reduce((a,b) => a + b, 0)/ array.length
+let find_average = array => !array.length ? 0 : array.reduce((a,b) => a + b, 0)/ array.length;
+
+function find_average () {
+  //if array length is 0 then return 0, else reduce array and divide by length
+return !array.length ? 0 : array.reduce((a,b) => a + b, 0)/ array.length
+}
 
 console.log(find_average([]))
