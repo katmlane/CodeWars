@@ -30,4 +30,12 @@ for (let count = 1; count <= n; count++){
 return xArr;
 }
 
+
+function countBy (x,n) {
+  let xArr = [];
+  for (let count = 1; count <= n; count++){
+    xArr.push(x * count);
+  }
+  return xArr;
+}
 console.log(countBy(2,5));
