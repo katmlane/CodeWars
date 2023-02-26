@@ -58,5 +58,16 @@
 
 //refactor
 
-let digitize = n => n.toString().split("").reverse().map(Number);
-console.log(digitize(348597))
+// let digitize = n => n.toString().split("").reverse().map(Number);
+// console.log(digitize(348597))
+
+//non arrow function 
+
+
+function digitize (n) {
+    let numToStr = n.toString();
+    let splitStr = numToStr.split("");
+    let reverseStr = splitStr.reverse();
+    let strToNum = reverseStr.map(Number);
+    return strToNum
+} 
