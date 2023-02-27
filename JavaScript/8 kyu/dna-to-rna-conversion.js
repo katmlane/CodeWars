@@ -60,7 +60,7 @@
 
 let dna = ""
 
-let DNAtoRNA = dna => {
+function DNAtoRNA (dna) {
     
     if (!dna) {
 
