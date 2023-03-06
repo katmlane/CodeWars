@@ -71,3 +71,30 @@ console.log(invert([]))
  //function invert(array) {
 //     return array.map( x => x === 0 ? x : -x);
 // }
+
+//removed arrow function 
+
+function invert (array) {
+
+  let invert = []
+    //looking at each integer in the array
+    for(let i = 0; i<array.length; i++){
+        //if the integer is positive
+        if(array[i] > 0){
+            invert.push(array[i] - (array[i] * 2));
+            //if the integer is negative
+          } else if(array[i] < 0){
+            invert.push(Math.abs(array[i]));
+            //if the array is 0
+          } else if(array[i] === 0){
+            invert.push(-0);
+            //if the array is empty
+          } else if(!array[i]){
+              return invert
+          }
+          
+
+    }
+    return invert
+
+}
