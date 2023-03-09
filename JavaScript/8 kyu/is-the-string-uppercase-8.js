@@ -56,3 +56,23 @@ const isUpperCase = str => {
 }
 
 console.log(isUpperCase("ACSKLDFJSGSKLDFJSKLDFJ"))
+
+
+//standard function 
+
+
+function isUpperCase (str) {
+    const strArr = str.split(" ").join("").split("");
+    //console.log(strArr)
+    let lowerCaseArr = 0;
+     strArr.map((letter) => {
+        if (letter !== letter.toUpperCase()) {
+            lowerCaseArr++
+        }
+    })
+    console.log(lowerCaseArr)
+
+    return lowerCaseArr > 0 ? false : true;
+
+
+}
