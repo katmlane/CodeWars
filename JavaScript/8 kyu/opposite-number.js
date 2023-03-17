@@ -26,3 +26,11 @@
   let opposite = number => -number
 
   console.log(opposite(-5))
+
+
+  //standard function 
+
+  function opposite (number) {
+
+    return -number
+  }
