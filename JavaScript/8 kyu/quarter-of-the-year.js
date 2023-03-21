@@ -56,3 +56,25 @@ console.log(quarterOf(10))
 
 
 const quarterOf = month => Math.ceil(month / 3);
+
+//standard function 
+
+function quarterOf (month) {
+    const quarter = month/12;
+    console.log(quarter)
+    if (quarter > 0 && quarter <= 0.25) {
+       return 1 
+    } 
+    else if (quarter > 0.25 && quarter <= 0.5) {
+        return 2 
+    }
+    else if (quarter > 0.5 && quarter <= 0.75) {
+        return 3 
+    }
+    else if (quarter > 0.75 && quarter <= 1) {
+        return 4 
+    }
+
+
+
+}
