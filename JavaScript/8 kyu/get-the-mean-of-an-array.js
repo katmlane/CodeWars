@@ -46,3 +46,10 @@ let getAverage = marks => Math.floor(marks.reduce((a,b) => a + b, 0)/marks.lengt
 
 
 console.log(getAverage([2,2,2,2]))
+
+
+//standard function 
+
+function getAverage (marks) {
+    return  Math.floor(marks.reduce((a,b) => a + b, 0)/marks.length);
+}
