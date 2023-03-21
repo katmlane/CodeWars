@@ -55,4 +55,15 @@
 
 const divisibleBy = (numbers, divisor) => numbers.filter(num => num % divisor === 0);
 
+
+
+
+//removed Arrow function 
+
+
+
+function divisibleBy (numbers, divisor) {
+    return numbers.filter(num => num % divisor === 0);
+};
+
 console.log(divisibleBy([0], 4) )
